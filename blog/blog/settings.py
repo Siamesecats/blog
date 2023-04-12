@@ -187,3 +187,6 @@ LOGGING = {
         },
     }
 }
+
+# 替换系统的 User
+AUTH_USER_MODEL = 'users.User'
