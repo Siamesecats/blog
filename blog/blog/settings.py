@@ -24,6 +24,7 @@ SECRET_KEY = '38*sdp$65sa+d@x%zst$5v(^$6xq-i1y#vq#1&-@w9oii9bf8%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -127,6 +128,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # 配置静态文件加载路径
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+# STATIC_ROOT=os.path.join(BASE_DIR,'static')
 
 # rides配置
 CACHES = {
